@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SA-MP Sri Lanka Monitor</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+<button id="menuBtn">☰</button>
+
+<h2>SA-MP Sri Lanka</h2>
+
+</header>
+
+<div id="sidebar">
+
+<a href="index.html">🏠 Home</a>
+
+<a href="addserver.html">➕ Add Server IP</a>
+
+<a href="admin.html">👑 Admin</a>
+
+</div>
+
+<div class="search">
+
+<input
+type="text"
+id="search"
+placeholder="Search Server..."
+onkeyup="searchServer()">
+
+</div>
+
+<div id="serverList">
+
+<div class="server">
+
+<h2>Dark Night City Roleplay</h2>
+
+<p>👥 Players : 0 / 100</p>
+
+<p id="ip1">93.177.64.145:7070</p>
+
+<button onclick="copyIP('ip1')">
+📋 Copy IP
+</button>
+
+</div>
+
+<div class="server">
+
+<h2>Sri Lanka Freeroam</h2>
+
+<p>👥 Players : 92 / 300</p>
+
+<p id="ip2">103.125.10.50:7777</p>
+
+<button onclick="copyIP('ip2')">
+📋 Copy IP
+</button>
+
+</div>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
