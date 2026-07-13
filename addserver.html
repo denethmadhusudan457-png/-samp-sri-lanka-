@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Add Server</title>
+
+<link rel="stylesheet" href="css/addserver.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Add Server IP</h1>
+
+<form>
+
+<input type="text" placeholder="Server Name" required>
+
+<input type="text" placeholder="Server IP (Example: 51.79.180.10)" required>
+
+<input type="number" placeholder="Maximum Players" required>
+
+<input type="text" placeholder="Owner Name" required>
+
+<input type="text" placeholder="Owner Phone (Optional)">
+
+<textarea placeholder="Description"></textarea>
+
+<label class="check">
+
+<input type="checkbox" id="liveQuery">
+
+Enable Live Query
+
+</label>
+
+<div id="queryBox">
+
+<input type="number" placeholder="Port (7777)">
+
+<input type="number" placeholder="Query Port (7777)">
+
+<label>
+
+<input type="checkbox" checked>
+
+Auto Update Every 30 Seconds
+
+</label>
+
+</div>
+
+<button type="submit">
+
+ADD SERVER
+
+</button>
+
+</form>
+
+</div>
+
+<script src="js/addserver.js"></script>
+
+</body>
+</html>
